@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@color/design_default_color_secondary"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="30dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:id="@+id/headerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Astudnt"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/StudentFull"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/quoteEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/classs"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/descEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/score"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/descEditTexts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/score"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/descEditTextss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/score"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/descEditTexts1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/score"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/descEditText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/score"
+            android:singleLine="true" />
+        <EditText
+            android:id="@+id/descEditText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/score"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorAccent"
+            android:text="Save"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

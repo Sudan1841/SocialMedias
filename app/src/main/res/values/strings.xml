@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SocialMedias</string>
+    <string name="StudentFull">Student FullName:</string>
+    <string name="score">Score Point</string>
+    <string name="classs">Department</string>
+    <string name="Astudnt">Enter the Student Information</string>
+    <string name="StudentsRecordSystem">Students Informations Record System</string>
+</resources>
